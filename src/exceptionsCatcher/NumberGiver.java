@@ -17,6 +17,7 @@ public class NumberGiver {
 		catch (InputMismatchException wrongInput) {
 			System.out.println(wrongInput.toString());
 		}
+	
 		return choice1;
 
 	}
